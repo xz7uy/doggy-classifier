@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@400&display=swap');
+
+@font-face {
+    font-family: 'gooddog_plainregular';
+    src: url('../fonts/good_dog-webfont.woff2') format('woff2'),
+         url('../fonts/good_dog-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Typography */
+body {
+    background-color: #D0F0C0;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-size: 22px;
+}
+
+h1 {
+    font-family: 'gooddog_plainregular';
+    font-size: 3.5rem;
+}
+
+h1.title {
+    color: #5B8347;
+}
+
+
+/* Layout */
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+
+}
