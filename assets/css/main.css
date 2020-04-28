@@ -4,8 +4,8 @@
     font-family: 'gooddog_plainregular';
     src: url('../fonts/good_dog-webfont.woff2') format('woff2'),
          url('../fonts/good_dog-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
+    font-weight: 400;
+    font-style: 400;
 }
 
 /* Typography */
@@ -13,21 +13,43 @@ body {
     background-color: #D0F0C0;
     font-family: 'M PLUS Rounded 1c', sans-serif;
     font-size: 22px;
+    color: #4b4b4b;
 }
 
 h1 {
     font-family: 'gooddog_plainregular';
-    font-size: 3.5rem;
+    font-size: 78px;
 }
 
 h1.title {
     color: #5B8347;
+    text-align: center
 }
 
 
 /* Layout */
 .container {
-    max-width: 1100px;
+    max-width: 900px;
     margin: 0 auto;
+    user-select: none;
+}
 
+/* Components */
+#dropzone {
+    background-color: #fff;
+    height: 350px;
+    padding: 4%;
+    border-radius: 33px;
+    text-align: center;
+
+    transition: all 0.5s ease;
+    cursor: pointer;
+}
+
+#dropzone * {
+    margin-bottom: 3em;
+}
+
+#dropzone:hover {
+    box-shadow: 0 6px 10px #C0D0F0;
 }
