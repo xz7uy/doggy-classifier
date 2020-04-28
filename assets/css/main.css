@@ -12,13 +12,13 @@
 body {
     background-color: #D0F0C0;
     font-family: 'M PLUS Rounded 1c', sans-serif;
-    font-size: 22px;
+    font-size: 16px;
     color: #4b4b4b;
 }
 
 h1 {
     font-family: 'gooddog_plainregular';
-    font-size: 78px;
+    font-size: 4rem;
 }
 
 h1.title {
@@ -29,7 +29,7 @@ h1.title {
 
 /* Layout */
 .container {
-    max-width: 900px;
+    max-width: 750px;
     margin: 0 auto;
     user-select: none;
 }
@@ -37,7 +37,7 @@ h1.title {
 /* Components */
 #dropzone {
     background-color: #fff;
-    height: 350px;
+    height: 320px;
     padding: 4%;
     border-radius: 33px;
     text-align: center;
