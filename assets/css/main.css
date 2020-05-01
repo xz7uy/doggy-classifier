@@ -53,3 +53,7 @@ h1.title {
 #dropzone:hover {
     box-shadow: 0 6px 10px #C0D0F0;
 }
+
+#file-element {
+    display: none;
+}

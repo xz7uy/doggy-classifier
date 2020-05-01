@@ -8,12 +8,18 @@
     <title>Cynthia's Splendid Doggy Classifier</title>
 </head>
 <body>
-    <div class="container">
-        <h1 class="title">Cynthia's Splendid Doggy Classifier</h1>
-        <div id="dropzone">
-            <p>Drag and drop an image or click to upload</p>
-            <img src="assets/icons/file-upload-icon.svg" alt="">
-        </div>
+  <div class="container">
+      <h1 class="title">Cynthia's Splendid Doggy Classifier</h1>
+      <div id="dropzone" ondrop="dropHandler(event)" ondragover="dragOverHandler(event)">
+          <form action="">
+              <p>Drag and drop an image or click to upload</p>
+              <input id="file-element" type="file" multiple accept="image/*">
+              <img src="assets/icons/file-upload-icon.svg" alt="">
+          </form>
+      </div>
     </div>
+
+
+    <script src="assets/main.js"></script>
 </body>
-</html>  
+</html>
